@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ElementMathFragment">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/problem1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/dark_gray"
+                    android:text="1"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/problem2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:text="2"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/problem3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:text="3"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/problem4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:text="4"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/problem5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:text="5"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="34sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/problem6"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:text="6"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/problem7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:text="7"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/problem8"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:text="8"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/problem9"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:text="9"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/problem10"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:text="10"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="34sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/problem11"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:text="11"
+                    android:textAllCaps="false"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/problem12"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:text="12"
+                    android:textAllCaps="false"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/problem13"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:text="13"
+                    android:textAllCaps="false"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/problem14"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:text="14"
+                    android:textAllCaps="false"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/problem15"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:text="15"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="34sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/problem16"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:text="16"
+                    android:textAllCaps="false"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/problem17"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:text="17"
+                    android:textAllCaps="false"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/problem18"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:text="18"
+                    android:textAllCaps="false"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/problem19"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:text="19"
+                    android:textAllCaps="false"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/problem20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:text="20"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="34sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/problem21"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:textAllCaps="false"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/problem22"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:textAllCaps="false"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/problem23"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:textAllCaps="false"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/problem24"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:textAllCaps="false"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/problem25"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="34sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/problem26"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:textAllCaps="false"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/Problem27"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/Problem28"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:textColor="@color/black"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/Problem29"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/Problem30"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:textColor="@color/black"
+                    android:textSize="34sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/Problem31"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/Problem32"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/Problem33"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/Problem34"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/Problem35"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:textColor="@color/black"
+                    android:textSize="34sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/Problem36"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/Problem37"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/Problem38"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/Problem39"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/Problem40"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:textColor="@color/black"
+                    android:textSize="34sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/Problem41"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/Problem42"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/Problem43"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/Problem44"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/Problem45"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:textColor="@color/black"
+                    android:textSize="34sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/Problem46"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/Problem47"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/Problem48"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/Problem49"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray" />
+
+                <Button
+                    android:id="@+id/Problem50"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/bright_gray" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/elementQuizBackButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="이전" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
